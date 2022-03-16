@@ -7,7 +7,7 @@ use App\Models\Barang;
 
 class BarangController extends Controller
 {
-    public function barang(){
+    public function barang1(){
         
         $barang = Barang::paginate(3);
         return view('barang')

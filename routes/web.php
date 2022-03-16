@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SupplierController;
+use App\Http\Controllers\PegawaiController;
 
 
 /*
@@ -25,3 +26,5 @@ use App\Http\Controllers\SupplierController;
 Route::get('/', [HomeController::class, 'index']);
 
 Route::get('/supplier', [SupplierController::class, 'supplier1']);
+
+Route::get('/pegawai', [PegawaiController::class, 'pegawai1']);

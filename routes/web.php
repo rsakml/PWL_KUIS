@@ -4,7 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SupplierController;
 use App\Http\Controllers\PegawaiController;
-
+use App\Http\Controllers\BarangController;
+use App\Http\Controllers\PelangganController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,7 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/supplier', [SupplierController::class, 'supplier1']);
 
 Route::get('/pegawai', [PegawaiController::class, 'pegawai1']);
+
+Route::get('/barang', [BarangController::class, 'barang1']);
+
+Route::get('/pelanggan', [PelangganController::class, 'pelanggan1']);

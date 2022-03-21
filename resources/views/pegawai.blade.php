@@ -16,6 +16,7 @@
                       <th>Nomor</th>
                       <th>Foto</th>
                       <th>Nama</th>
+                      <th>Jenis Kelamin</th>
                       <th>Profesi</th>
                       <th>Email</th>
                     </tr>
@@ -28,6 +29,7 @@
                           <td>{{$p->id}}</td>
                           <td><img height="100" width="180" src="{{asset('images/'.$p->foto)}}"></td>
                           <td>{{$p->nama}}</td>
+                          <td>{{$p->jenisKelamin}}</td>
                           <td>{{$p->profesi}}</td>
                           <td>{{$p->email}}</td>         
                           </tr> 

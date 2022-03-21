@@ -17,6 +17,7 @@ class CreatePegawaiTable extends Migration
             $table->id();
             $table->string('foto');
             $table->string('nama');
+            $table->boolean('jenisKelamin');
             $table->string('profesi');
             $table->string('email');
             $table->timestamps();

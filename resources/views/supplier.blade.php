@@ -28,7 +28,7 @@
                           <td>{{$s->id}}</td>
                           <td><img height="80" width="160" src="{{asset('images/'.$s->gambar)}}"></td>
                           <td>{{$s->nama}}</td>
-                          <td>{{$s->jenis}}</td>
+                          <td>{{$s->kategori}}</td>
                           <td>{{$s->email}}</td>         
                           </tr> 
                     @endforeach

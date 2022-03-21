@@ -17,7 +17,7 @@ class CreateSupplierTable extends Migration
             $table->id();
             $table->string('gambar');
             $table->string('nama');
-            $table->text('jenis');
+            $table->string('kategori');
             $table->string('email');
             $table->timestamps();
         });

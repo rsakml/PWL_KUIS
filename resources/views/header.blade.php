@@ -42,7 +42,6 @@
                              <a class="dropdown-item" href="pegawai">Data Pegawai</a>
                              <a class="dropdown-item" href="pelanggan">Data Pelanggan</a>
                              <div class="dropdown-divider"></div>
-                             <a class="dropdown-item" href="mahasiswa">Mahasiswa</a>
                            </div>
                          </li>
                       </ul>

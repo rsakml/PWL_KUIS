@@ -16,7 +16,7 @@
                       <th>Nomor</th>
                       <th>Logo</th>
                       <th>Nama</th>
-                      <th>Jenis Layanan</th>
+                      <th>Kategori</th>
                       <th>Email</th>
                     </tr>
                     </thead>

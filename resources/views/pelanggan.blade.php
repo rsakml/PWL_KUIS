@@ -17,7 +17,9 @@
                         <th>Foto</th>
                         <th>Nama</th>
                         <th>Alamat</th>
+                        <th>Jenis Kelamin</th>
                         <th>Email</th>
+                        <th>No Telp</th>
                     </tr>
                 </thead>
         
@@ -29,7 +31,9 @@
                             <td><img height='100' width='100' src="{{ asset('images/' . $p->foto) }}"></td>
                             <td>{{ $p->nama }}</td>
                             <td>{{ $p->alamat }}</td>
+                            <td>{{ $p->jenisKelamin }}</td>
                             <td>{{ $p->email }}</td>
+                            <td>{{ $p->noTelp }}</td>
                         </tr>
                     @endforeach
         

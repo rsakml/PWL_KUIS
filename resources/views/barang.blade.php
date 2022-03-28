@@ -15,7 +15,7 @@
                     <tr>
                         <th>Nomor</th>
                         <th>Gambar</th>
-                        <th>Jenis Hosting</th>
+                        <th>Nama Hosting</th>
                         <th>Harga</th>
                         <th>Deskripsi</th>
                     </tr>
@@ -27,7 +27,7 @@
                         <tr>
                             <td>{{ $b->id }}</td>
                             <td><img height='100' width='100' src="{{asset('images/'.$b->gambar)}}"></td>
-                            <td>{{ $b->jenis }}</td>
+                            <td>{{ $b->namaBarang }}</td>
                             <td>{{ $b->harga }}</td>
                             <td>{{ $b->deskripsi }}</td>
                         </tr>
@@ -36,7 +36,7 @@
                 </tbody>
             </table>
               <br><br>
-
+            
               {{$barang->links()}}
 
           </div>

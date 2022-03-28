@@ -16,31 +16,31 @@ class BarangSeeder extends Seeder
     {
         DB::table('barang')->insert([
             [
-            'jenis' => 'Charming Hosting SSD',
+            'namaBarang' => 'Charming Hosting SSD',
             'harga' => 'Rp. 10.900/bln',
             'deskripsi' => 'SSD Space 400 MB, Bandwidth/bulan Unmetered, Panel cPanel ',
             'gambar' => 'b1.png'
             ],
             [
-            'jenis' => 'Cute Hosting SSD',
+            'namaBarang' => 'Cute Hosting SSD',
             'harga' => 'Rp. 19.900/bln',
             'deskripsi' => 'SSD Space 2 GB, Bandwidth/bulan Unmetered, Panel cPanel, Gratis Domain Baru 1 tahun',
             'gambar' => 'b2.png'
             ],
             [
-            'jenis' => 'Awesome Hosting SSD',
+            'namaBarang' => 'Awesome Hosting SSD',
             'harga' => 'Rp. 26.900/bln',
             'deskripsi' => 'SSD Space 5 GB, Bandwidth/bulan Unmetered, Panel cPanel, Gratis 1 Domain Seumur Hidup',
             'gambar' => 'b3.png'
             ],
             [
-            'jenis' => 'Fantastic Hosting SSD',
+            'namaBarang' => 'Fantastic Hosting SSD',
             'harga' => 'Rp. 86.900/bln',
             'deskripsi' => 'SSD Space 8 GB, Bandwidth/bulan Unmetered, Panel cPanel, Gratis 1 Domain Seumur Hidup',
             'gambar' => 'b4.png'
             ],
             [
-            'jenis' => 'Corporate Hosting SSD',
+            'namaBarang' => 'Corporate Hosting SSD',
             'harga' => 'Rp. 300.900/bln',
             'deskripsi' => 'SSD Space 15 GB, Bandwidth/bulan Unmetered, Panel cPanel, Gratis 1 Domain Seumur Hidup',
             'gambar' => 'b5.png'
